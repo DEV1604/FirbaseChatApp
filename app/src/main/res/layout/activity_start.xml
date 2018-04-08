@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.this_pc.mychatapp.StartActivity">
+
+    <TextView
+        android:id="@+id/textViewMyWhatsapp"
+        android:layout_width="wrap_content"
+        android:layout_height="52dp"
+        android:layout_centerInParent="true"
+        android:text="Welcome to MyWhatsapp"
+        android:textSize="28sp" />
+
+    <Button
+        android:id="@+id/startregbutton"
+        android:layout_width="217dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="186dp"
+        android:text="Need A New Account"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/startloginbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="120dp"
+        android:text="Already Have An Account" />
+
+</RelativeLayout>
